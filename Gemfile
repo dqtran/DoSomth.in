@@ -12,14 +12,11 @@ gem 'rails_12factor', group: :production
 # Use haml-rails for HTML abstraction markup language
 gem "haml-rails"
 
-# Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.0'
+# twitter bootstrap css & javascript toolkit
+gem 'twitter-bootswatch-rails', '~> 3.1.1'
 
-# Use bootstrap for css styles
-gem 'bootstrap-sass', '~> 3.1.1'
-
-# Use bootswatch for theming
-gem 'bootswatch-rails'
+# twitter bootstrap helpers gem, e.g., alerts etc...
+gem 'twitter-bootswatch-rails-helpers'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -28,7 +25,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-# gem 'therubyracer', platforms: :ruby
+gem 'therubyracer', platforms: :ruby
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
